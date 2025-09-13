@@ -71,25 +71,26 @@ fun TimelineScreen(
         ) {
             items(entries, key = { it.id }) { e: JournalEntry ->
                 val dismissState = rememberSwipeToDismissBoxState(
-                    confirmValueChange = { value ->
-                        if (value == SwipeToDismissBoxValue.EndToStart ||
-                            value == SwipeToDismissBoxValue.StartToEnd
-                        ) {
-                            InMemoryRepository.deleteEntry(e.id)
-                            scope.launch {
-                                val result = snackbar.showSnackbar(
-                                    message = "Entry deleted",
-                                    actionLabel = "Undo",
-                                    withDismissAction = true,
-                                    duration = SnackbarDuration.Short
-                                )
-                                if (result == SnackbarResult.ActionPerformed) {
-                                    InMemoryRepository.restoreEntry(e)
-                                }
-                            }
-                            true
-                        } else false
-                    }
+                    confirmValueChange = { false }
+//                    confirmValueChange = { value ->
+//                        if (value == SwipeToDismissBoxValue.EndToStart ||
+//                            value == SwipeToDismissBoxValue.StartToEnd
+//                        ) {
+//                            InMemoryRepository.deleteEntry(e.id)
+//                            scope.launch {
+//                                val result = snackbar.showSnackbar(
+//                                    message = "Entry deleted",
+//                                    actionLabel = "Undo",
+//                                    withDismissAction = true,
+//                                    duration = SnackbarDuration.Short
+//                                )
+//                                if (result == SnackbarResult.ActionPerformed) {
+//                                    InMemoryRepository.restoreEntry(e)
+//                                }
+//                            }
+//                            true
+//                        } else false
+//                    }
                 )
 
                 SwipeToDismissBox(

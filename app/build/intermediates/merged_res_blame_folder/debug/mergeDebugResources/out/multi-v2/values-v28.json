@@ -4,7 +4,7 @@
             "outputFile": "com.markrogers.journal.app-mergeDebugResources-73:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Goosh\\.gradle\\caches\\8.13\\transforms\\41d7be4374ced074d344259fb8682350\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Goosh\\.gradle\\caches\\8.13\\transforms\\2f993902faeba7b9a3ed25351a231b4a\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Goosh\\.gradle\\caches\\8.13\\transforms\\cc5aa83dfead8d757439a719305edc56\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Goosh\\.gradle\\caches\\8.13\\transforms\\d69a31c581267d243ae5b719f3261dbb\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
