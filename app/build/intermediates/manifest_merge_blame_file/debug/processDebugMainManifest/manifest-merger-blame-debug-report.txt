@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.markrogers.journal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Networking for Retrofit/OkHttp -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:5:5-67
+12-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+13-->[androidx.biometric:biometric:1.1.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\eced4c87dac2a16464896bc8a6112e03\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+13-->[androidx.biometric:biometric:1.1.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\eced4c87dac2a16464896bc8a6112e03\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->[androidx.biometric:biometric:1.1.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\eced4c87dac2a16464896bc8a6112e03\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+14-->[androidx.biometric:biometric:1.1.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\eced4c87dac2a16464896bc8a6112e03\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+15
+16    <permission
+16-->[androidx.core:core:1.13.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f99d9bd850cf2ceba2701172eb5131aa\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.markrogers.journal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f99d9bd850cf2ceba2701172eb5131aa\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f99d9bd850cf2ceba2701172eb5131aa\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.markrogers.journal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f99d9bd850cf2ceba2701172eb5131aa\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f99d9bd850cf2ceba2701172eb5131aa\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:7:5-23:19
+23        android:name="com.markrogers.journal.JournalApp"
+23-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:8:9-35
+24        android:allowBackup="true"
+24-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:9:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.13.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f99d9bd850cf2ceba2701172eb5131aa\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:label="@string/app_name"
+28-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:10:9-41
+29        android:supportsRtl="true"
+29-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:11:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Journal" >
+31-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:12:9-45
+32        <activity
+32-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:14:9-21:20
+33            android:name="com.markrogers.journal.MainActivity"
+33-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:15:13-41
+34            android:exported="true" >
+34-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:16:13-36
+35            <intent-filter>
+35-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:17:13-20:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:18:17-69
+36-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:18:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:19:17-77
+38-->D:\Downloads\andriodJournal-main (1)\andriodJournal-main\app\src\main\AndroidManifest.xml:19:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\e970ac189ddb4841c64d7d8cded82302\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+42            android:name="androidx.compose.ui.tooling.PreviewActivity"
+42-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\e970ac189ddb4841c64d7d8cded82302\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+43            android:exported="true" />
+43-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\e970ac189ddb4841c64d7d8cded82302\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\97e0823a34c05857bf168f3e0163fb21\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\97e0823a34c05857bf168f3e0163fb21\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+47            android:authorities="com.markrogers.journal.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\97e0823a34c05857bf168f3e0163fb21\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\97e0823a34c05857bf168f3e0163fb21\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\97e0823a34c05857bf168f3e0163fb21\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\97e0823a34c05857bf168f3e0163fb21\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\97e0823a34c05857bf168f3e0163fb21\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Goosh\.gradle\caches\8.13\transforms\9d6081d5b7453aafbb469cef0d60bfae\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Goosh\.gradle\caches\8.13\transforms\9d6081d5b7453aafbb469cef0d60bfae\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\Goosh\.gradle\caches\8.13\transforms\9d6081d5b7453aafbb469cef0d60bfae\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+56-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+57                android:value="androidx.startup" />
+57-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+58        </provider>
+59
+60        <activity
+60-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\6285573dd300bc5461b87256e73b023a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+61            android:name="androidx.activity.ComponentActivity"
+61-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\6285573dd300bc5461b87256e73b023a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+62            android:exported="true" />
+62-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Goosh\.gradle\caches\8.13\transforms\6285573dd300bc5461b87256e73b023a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+63
+64        <service
+64-->[androidx.room:room-runtime:2.6.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f0cb39c3a183b96ce997514c3ba264dc\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+65            android:name="androidx.room.MultiInstanceInvalidationService"
+65-->[androidx.room:room-runtime:2.6.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f0cb39c3a183b96ce997514c3ba264dc\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+66            android:directBootAware="true"
+66-->[androidx.room:room-runtime:2.6.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f0cb39c3a183b96ce997514c3ba264dc\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+67            android:exported="false" />
+67-->[androidx.room:room-runtime:2.6.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\f0cb39c3a183b96ce997514c3ba264dc\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+68
+69        <receiver
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+70            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+71            android:directBootAware="false"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+72            android:enabled="true"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+73            android:exported="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+74            android:permission="android.permission.DUMP" >
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+76                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+79                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+82                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+85                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Goosh\.gradle\caches\8.13\transforms\e491caa1eda477d7bc5ffeca2d73f0c5\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+86            </intent-filter>
+87        </receiver>
+88    </application>
+89
+90</manifest>

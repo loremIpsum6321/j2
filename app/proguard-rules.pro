@@ -1,0 +1,4 @@
+-keepclassmembers class **$$serializer { *; }
+-keepclasseswithmembers class kotlinx.serialization.** { *; }
+-keepattributes *Annotation*
+-dontwarn kotlinx.serialization.**

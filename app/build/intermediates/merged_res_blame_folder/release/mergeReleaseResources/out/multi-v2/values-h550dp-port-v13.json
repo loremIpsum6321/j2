@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.markrogers.journal.app-mergeReleaseResources-67:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Goosh\\.gradle\\caches\\8.13\\transforms\\41d7be4374ced074d344259fb8682350\\transformed\\material-1.12.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

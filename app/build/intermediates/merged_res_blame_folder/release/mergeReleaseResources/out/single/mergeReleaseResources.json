@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.markrogers.journal.app-release-69:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.markrogers.journal.app-main-70:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.markrogers.journal.app-release-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.markrogers.journal.app-main-70:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.markrogers.journal.app-release-69:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.markrogers.journal.app-main-70:/drawable/ic_launcher_background.xml"
+    }
+]
